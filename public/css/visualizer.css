@@ -1,0 +1,33 @@
+
+
+.viewer, .downloadContainer{
+    width: 75%;
+    margin: 20px auto;
+}
+
+.viewer > h1{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.downloadContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.downloadContainer > a.buttonDownload{
+
+    color: #fff;
+    text-decoration: none;
+    background-color: #B259D1;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: .8rem;
+
+}
+
+a.buttonDownload:hover{
+    background-color: #9440B1;
+}

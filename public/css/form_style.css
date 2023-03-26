@@ -1,0 +1,17 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainContent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.card.formCardCenter{
+    width: 50%;
+    margin: auto;
+}
